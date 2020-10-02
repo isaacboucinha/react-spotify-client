@@ -36,3 +36,292 @@
     transform: rotate(360deg);
   }
 }
+
+
+.login-button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  transition-duration: .3s;
+  font-family: "Rubik",Arial,Helvetica,sans-serif;
+  background-color: #fff;
+  color: #1ED760;
+  cursor: pointer;
+  padding: .5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 32px;
+  border-width: 2px;
+  border-color: #1ED760;
+  border-radius: 5rem;
+}
+
+.login-button:hover {
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.login-button:click {
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.logout-button {
+  position: relative;
+  transition-duration: .3s;
+  font-family: "Rubik",Arial,Helvetica,sans-serif;
+  background-color: #fff;
+  color: #e40d0d;
+  cursor: pointer;
+  padding: .5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 32px;
+  border-width: 2px;
+  border-color: #e40d0d;
+  border-radius: 5rem;
+}
+
+.logout-button:hover {
+  background-color: #e40d0d;
+  border-color: #e40d0d;
+}
+
+.logout-button:click {
+  background-color: #e40d0d;
+  border-color: #e40d0d;
+}
+
+.spinner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.user-info {
+  text-align: left;
+}
+
+.user-info-photo {
+  width: 100px;
+  border-radius: 5rem;
+}
+
+.user-info-followers {
+  color: darkgray;
+  transform: translate(10px, 10px);
+}
+
+.search-bar {
+  height: 35px;
+  background: whitesmoke;
+  border: none;
+  padding-left: 20px;
+  width: 50%;
+  border-radius: 5em;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.search-button {
+  position: absolute;
+  left: 76%;
+  top: 25%;
+  transition-duration: .3s;
+  font-family: "Rubik",Arial,Helvetica,sans-serif;
+  background-color: #1ED760;
+  color: #fff;
+  cursor: pointer;
+  padding: .2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 32px;
+  border-width: 2px;
+  border-color: #1ED760;
+  border-radius: 5rem;
+}
+
+
+.search-button:hover {
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.search-button:click {
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.search-button:active {
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.search-button:focus {
+  box-shadow: 0 0 0;
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.album-icon {
+  width: 150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.album-icon-container {
+  position: relative;
+  width: 25%;
+  margin: 10px;
+}
+
+.album-icon-container:hover {
+  background-color: whitesmoke;
+}
+
+.album-icon-container p {
+  margin: 0;
+  text-align: center;
+}
+
+
+.album-icon-container .secondary-title {
+  color: darkgray;
+}
+
+.track-panel-container {
+  display: flex;
+}
+
+.track-panel-parent {
+  margin-top: 50px;
+}
+
+.album-photo {
+  width: 300px;
+}
+
+.album-title {
+  font-weight: bold;
+  font-size: xx-large;
+  width: 30%;
+}
+
+.by-artists-paragraph p {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.album-artist {
+  margin-left: 5px;
+}
+
+.album-tracks {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  width: 45%;
+}
+
+.track-row {
+  display: flex;
+}
+
+.track-name {
+  margin-left: 10px;
+}
+
+
+
+.artist-icon {
+  width: 150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.artist-icon-container {
+  position: relative;
+  width: 25%;
+  margin: 10px;
+}
+
+.artist-icon-container:hover {
+  background-color: whitesmoke;
+}
+
+.artist-icon-container p {
+  margin: 0;
+  text-align: center;
+}
+
+.artist-title {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.artist-photo {
+  width: 250px;
+}
+
+.following-button {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  transition-duration: .3s;
+  font-family: "Rubik",Arial,Helvetica,sans-serif;
+  background-color: #1ED760;
+  color: #fff;
+  cursor: pointer;
+  padding: .2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 32px;
+  border-width: 2px;
+  border-color: #1ED760;
+  border-radius: 5rem;
+}
+
+
+.following-button:hover {
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.following-button:click {
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.following-button:active {
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
+
+.following-button:focus {
+  box-shadow: 0 0 0;
+  background-color: #1ED760;
+  border-color: #1ED760;
+}
